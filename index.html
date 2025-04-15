@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .profile-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #4a90e2;
+        }
+        
+        h1 {
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+        
+        .bio {
+            margin-bottom: 20px;
+            text-align: center;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .hobbies {
+            margin-top: 30px;
+        }
+        
+        .hobbies h2 {
+            color: #4a90e2;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        .hobbies ul {
+            list-style-position: inside;
+            padding-left: 20px;
+        }
+        
+        .hobbies li {
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 600px) {
+            .profile-container {
+                padding: 20px;
+            }
+            
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+            <h1>John Doe</h1>
+        </div>
+        
+        <div class="bio">
+            <p>Web developer passionate about creating clean, efficient code. Enjoys solving complex problems and learning new technologies. Based in San Francisco.</p>
+        </div>
+        
+        <div class="hobbies">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Hiking and outdoor adventures</li>
+                <li>Photography</li>
+                <li>Playing guitar</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
